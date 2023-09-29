@@ -1,0 +1,9 @@
+.menu {
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+
+.accueil, .a_propos {
+    text-decoration: none;
+    color: #FF6060;
+}
