@@ -1,9 +1,19 @@
 .menu {
+    display: flex;
     font-size: 24px;
     font-family: "Montserrat";
+    gap: 57px;
 }
 
 .accueil, .a_propos {
     text-decoration: none;
     color: #FF6060;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }

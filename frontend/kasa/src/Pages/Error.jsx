@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import "../Styles/Error.css"
 
 export default function Error() {
     return (
@@ -13,4 +14,4 @@ export default function Error() {
         <Footer />
       </div>
     );
-  }
+  } 

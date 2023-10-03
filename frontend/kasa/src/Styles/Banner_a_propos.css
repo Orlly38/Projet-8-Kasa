@@ -1,0 +1,18 @@
+.img2_container {
+    position: relative;
+    width: 1240px;
+    height: 223px;
+    border-radius: 25px;
+    /*background-position: center;*/
+    background-image: url("../Images/paysage2.jpeg");
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.Banner_a_propos {
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+}
+

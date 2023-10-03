@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import Banner from "../Components/Banner";
+import Gallery from "../Components/Gallery";
 import Footer from "../Components/Footer";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="home">
         <Header />
         <Banner />
+        <Gallery />
         <Footer />
       </div>
     );
