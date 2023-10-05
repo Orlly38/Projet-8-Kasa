@@ -1,6 +1,28 @@
 .cards {
     width: 340px;
     height: 340px;
-    background-color: #FF6060;
-    
+    background: linear-gradient(180deg, #FF6060, #E06869, #803134);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.card_img {
+    width: 330px;
+    height: 240px;
+    margin: 5px;
+    border-radius: 10px 10px 0 0;
+    margin-left: 5px;
+}
+
+.card_title {
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.cards a {
+    text-decoration: none;
 }

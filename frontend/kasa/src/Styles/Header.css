@@ -8,12 +8,12 @@
 .accueil, .a_propos {
     text-decoration: none;
     color: #FF6060;
-
 }
 
 .header {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-}
+    align-items: center;
+    max-width: 1240px;
+} 
