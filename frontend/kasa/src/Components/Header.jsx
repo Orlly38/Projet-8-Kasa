@@ -9,7 +9,7 @@ export default function Header() {
             </h1>
             <div className="menu">
             <a href="accueil" className="accueil">Accueil</a>
-            <a href="a_propos" className="a_propos">A propos</a>
+            <a href="about" className="about">A propos</a>
             </div>
         </header>
     )

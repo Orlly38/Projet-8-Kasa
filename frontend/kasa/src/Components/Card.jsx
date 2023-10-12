@@ -11,4 +11,4 @@ export default function Card({ id, title, cover }) {
         </Link>
         </div>
     )
-}
+} 
