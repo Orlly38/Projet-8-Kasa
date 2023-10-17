@@ -1,0 +1,48 @@
+.collapse_title {
+    color: white;
+    background-color: #FF6060;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.collapse {
+    width: 1024px;
+}
+
+.collapse_dropdown_txt--visible {
+    width: 1024px;
+    background-color: #F6F6F6;
+    color: #FF6060;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    border-radius: 5px 0 5px 0;
+    padding-left: 18px;
+    padding-bottom: 19px;
+}
+
+.collapse_dropdown_txt--hidden {
+    display: none;
+}
+
+.collapse_fermeture {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.collapse_ouverture {
+    cursor: pointer;
+}
+
+.collapse_dropdown {
+    background-color: #F6F6F6;
+    width: 1060px;
+}

@@ -9,3 +9,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
   } 
+
+  #root {
+    display: flex;
+    justify-content: center;
+  }
