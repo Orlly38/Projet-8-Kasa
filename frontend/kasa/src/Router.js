@@ -4,19 +4,18 @@ import Home from "./Pages/Home";
 import Error from "./Pages/Error";
 import Logement from "./Pages/Logement";
 import About from "./Pages/About";
-//import Error from ".Pages/Error";
-//import Logement from ".Pages/Logement";
 
 function Router() {
     return (
       <BrowserRouter>
         <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route exact path="/Accueil" element={<Home/>} />
-            <Route exact path="/Home" element={<Home/>} />
-            <Route exact path="/Error" element={<Error/>} />
-            <Route exact path="/Logement" element={<Logement/>} />
-            <Route exact path="/About" element={<About/>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/Accueil" element={<Home/>} />
+            <Route path="/Home" element={<Home/>} />
+            <Route path="/Error" element={<Error/>} />
+            <Route path="/src/data/:id" element={<Logement/>} />
+            <Route path="/About" element={<About/>} />
+            <Route path="*" element={<Error/>} />
         </Routes>
       </BrowserRouter>
     );

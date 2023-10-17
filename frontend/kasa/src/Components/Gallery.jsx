@@ -1,6 +1,6 @@
 import Card from "../Components/Card"
 import "../Styles/Gallery.css"
-import datas from "../../src/data.json";
+import datas from "../../src/logements.json";
 
 export default function Gallery() {
     return (

@@ -1,0 +1,25 @@
+.logement_main_title, .logement_main_host {
+    color: #FF6060;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.logement_main_title h1{
+    font-size: 36px;
+}
+
+.logement_main_title p, .logement_main_host{
+    font-size: 18px;
+}
+
+.logement_main_host_img {
+    border-radius: 50%;
+}
+
+.logement_main_tags span {
+    color: white;
+    background-color: #FF6060;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
