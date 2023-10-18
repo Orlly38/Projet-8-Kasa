@@ -61,25 +61,29 @@ export default function Logement() {
                           title={data.title}
                           pictures={data.pictures}
                       />
-                      <div className="logement_main_title">
-                          <h1>{data.title}</h1>
-                          <p>{data.location}</p>
-                      </div>
-                      <div className="logement_main_hostAndRating">
-                          <div className="logement_main_host">
-                              <p>{firstName}<br />{lastName}</p>
-                              <img
-                                  className="logement_main_host_img"
-                                  src={data.host.picture}
-                                  alt={fullName}
-                              />
-                          </div>
-                          <div className="logement_main_rating">
-                              {stars}
-                          </div>
-                      </div>
-                      <div className="logement_main_tags">
-                          {tagList}
+                    <div className="logement_infos">
+                        <div className="logement_title_tag">
+                            <div className="logement_main_title">
+                                <h1>{data.title}</h1>
+                                <p>{data.location}</p>
+                            </div>
+                            <div className="logement_main_tags">
+                                {tagList}
+                            </div>
+                        </div>
+                        <div className="logement_main_host_rating">
+                            <div className="logement_main_host">
+                                <div><p>{firstName}<br />{lastName}</p></div>
+                                <img
+                                    className="logement_main_host_img"
+                                    src={data.host.picture}
+                                    alt={fullName}
+                                />
+                            </div>
+                            <div className="logement_host_rating">
+                                {stars} 
+                            </div>
+                        </div>
                       </div>
                       <div className="logement_main_collapse">
                           <div className="logement_main_collapse_details">

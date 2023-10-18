@@ -1,24 +1,29 @@
-.carrousel_img {
-    width: 1240px;
-    height: 415px;
-    border-radius: 25px;
+.carrousel {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    width: 1240px;
+}
+
+.carrousel_img {
+    position: absolute;
+    width: 1240px;
+    height: 415px;
+    border-radius: 25px;
+
 }
 
 .carrousel_icon_next, .carrousel_icon_prev {
-    position: absolute;
+    position: relative;
     width: 46px;
     height: 79px;
     cursor: pointer;
 }
 
 .carrousel_icon_prev {
-    left: 10px;
+    left: -550px;
 }
 
 .carrousel_icon_next {
-    right: 10px;
+    right: -575px;
 }

@@ -14,6 +14,7 @@
 
 .logement_main_host_img {
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .logement_main_tags span {
@@ -23,3 +24,33 @@
     font-weight: 500;
     font-family: "Montserrat";
 }
+
+.logement_infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logement_host_img_rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.logement_main_host_rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.logement_main_host {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+.logement_host_rating {
+    min-width: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
