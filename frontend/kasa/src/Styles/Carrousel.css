@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 1240px;
+    margin-top: 180px;
 }
 
 .carrousel_img {
@@ -10,7 +11,7 @@
     width: 1240px;
     height: 415px;
     border-radius: 25px;
-
+    object-fit: cover;
 }
 
 .carrousel_icon_next, .carrousel_icon_prev {

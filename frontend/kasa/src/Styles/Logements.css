@@ -23,11 +23,15 @@
     font-size: 14px;
     font-weight: 500;
     font-family: "Montserrat";
+    border-radius: 10px;
+    padding: 3px 40px 3px 40px;
+    margin-right: 10px;
 }
 
 .logement_infos {
     display: flex;
     justify-content: space-between;
+    margin-top: 190px;
 }
 
 .logement_host_img_rating {
@@ -54,3 +58,29 @@
     justify-content: space-between;
 }
 
+.logement_main_collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logement_main_collapse_details .collapse_title,
+.logement_main_collapse_details .collapse_div,
+.logement_main_collapse_details .collapse_close,
+.logement_main_collapse_details .collapse_open,
+.logement_main_collapse_details .collapse_txt--visible {
+    width: 582px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.logement_main_collapse_details .collapse_div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.logement_main_collapse_details .collapse_title h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
