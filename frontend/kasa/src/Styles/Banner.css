@@ -8,13 +8,13 @@
     font-weight: 500;
     color: white;
     text-align: center;
-    width: 1240px;
+    width: 100%;
     height: 223px;
     margin: 0;
 } 
 
 .img_container { 
-    width: 1240px;
+    width: 100%;
     height: 223px;
     border-radius: 25px;
     background-position: center;
@@ -34,10 +34,28 @@
 }
 
 
-.Banner_home {
+.banner_home {
     margin-top: 63px;
     display: flex;
     justify-content: center;
 }
  
- 
+@media (max-width: 376px) {
+    .img_container { 
+        height: 111px;
+        background-size: cover;
+    }
+
+    .text_banner_home {
+        font-size: 24px;
+        height: 111px;
+        width: 50%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .banner_home {
+        margin-top: 15px;
+        justify-content: flex-start;
+    }
+}

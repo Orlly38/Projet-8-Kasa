@@ -8,9 +8,22 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    width:1240px;
   } 
 
   #root {
     display: flex;
     justify-content: center;
   }
+
+  @media (max-width: 376px) {
+
+    .home {
+        max-width: 365px;
+    } 
+
+    
+  #root {
+    padding: 5px;
+  }
+}

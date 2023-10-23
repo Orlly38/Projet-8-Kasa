@@ -3,7 +3,7 @@ import "../Styles/Home.css"
 
 export default function Banner() {
     return (
-       <div className="Banner_home">
+       <div className="banner_home">
             <div className="img_container">
             
             </div>

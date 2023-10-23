@@ -15,5 +15,20 @@
     justify-content: space-between;
     margin-top: 40px;
     align-items: center;
-    width: 1240px;
+    width: 100%;
 } 
+
+@media (max-width: 376px) {
+
+    .header img{
+        width: 145px;
+        height: 47px;
+    } 
+    
+    .header .menu {
+        max-width: 190px;
+        font-size: 16px;
+        text-transform: uppercase;
+        gap:15px;
+    }
+}

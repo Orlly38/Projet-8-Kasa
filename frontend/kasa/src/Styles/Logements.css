@@ -71,7 +71,6 @@
 .logement_main_collapse_details .collapse_txt--visible {
     width: 582px;
     margin-bottom: 20px;
-    padding: 0;
 }
 
 .logement_main_collapse_details .collapse_div {
@@ -80,7 +79,13 @@
     flex-direction: column;
 }
 
-.logement_main_collapse_details .collapse_title h3 {
-    padding-left: 10px;
-    padding-right: 10px;
+.logement_main_collapse_details .collapse_title {
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-bottom: 0px;
+    width: 570px;
+}
+
+.logement_main_collapse_details .collapse_txt--visible  {   
+    padding-top: 15px;
 }
