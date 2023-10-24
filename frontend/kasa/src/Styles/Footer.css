@@ -15,3 +15,13 @@
     width: 122px;
     height: 39px;
 }
+
+@media (max-width: 376px) {
+    .footer {
+        height:120px;
+    }
+
+    .text_footer {
+        font-size: 12px;
+    }
+}

@@ -4,3 +4,19 @@
     align-items: center;
     margin-bottom: 31px;
 }
+
+.About {
+    width:1240px;
+}
+
+.about_main .collapse {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 376px) {
+
+    .About {
+        max-width: 100%;
+    } 
+}

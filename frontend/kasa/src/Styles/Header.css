@@ -25,10 +25,15 @@
         height: 47px;
     } 
     
+    .header h1{
+        padding-left:5px;
+    }
+
     .header .menu {
         max-width: 190px;
         font-size: 16px;
         text-transform: uppercase;
         gap:15px;
+        padding-right:5px;
     }
 }

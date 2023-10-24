@@ -27,6 +27,14 @@
     text-decoration: none;
 }
 
+@media (max-width: 376px) {
+    .cards {
+
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
 /*@media (max-width: 1024px) {
     .gallery {
     display: flex;

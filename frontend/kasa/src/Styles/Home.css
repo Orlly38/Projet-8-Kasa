@@ -18,12 +18,12 @@ body {
 
   @media (max-width: 376px) {
 
-    .home {
+    /*.home {
         max-width: 365px;
     } 
 
     
   #root {
     padding: 5px;
-  }
+  }*/
 }

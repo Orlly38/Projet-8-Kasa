@@ -7,18 +7,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1024px;
+    width: 95%;
     border-radius: 5px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 .collapse {
-    width: 1024px;
+    width: 100%;
 }
 
 .collapse_txt--visible {
-    width: 1042px;
     background-color: #F6F6F6;
     color: #FF6060;
     font-size: 24px;
@@ -45,6 +44,13 @@
 
 .collapse_div {
     background-color: #F6F6F6;
-    width: 1060px;
+    width: 80%;
     border-radius: 0 0 5px 5px;
 }
+
+@media (max-width: 376px) {
+    .collapse_div {
+        width: 100%;
+        padding: 5px;
+    }
+} 
