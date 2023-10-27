@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1240px;
+    width: 100%;
     margin-top: 180px;
 }
 
@@ -27,4 +27,31 @@
 
 .carrousel_icon_next {
     right: -575px;
+}
+
+@media (max-width: 376px) {
+    .carrousel {
+        margin-top: 15px;
+        height: 255px;
+    }
+
+    .carrousel_img {
+        width: 355px;
+        height: 255px;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+        
+    .carrousel_icon_prev {
+        left: -135px;
+    }
+
+    .carrousel_icon_next {
+        right: -155px;
+    }
+
+    .carrousel_icon_next, .carrousel_icon_prev {
+        width: 24px;
+        height: 24px;
+    }
 }

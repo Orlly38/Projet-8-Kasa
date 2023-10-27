@@ -20,7 +20,7 @@ body {
     color: #FF6060;
     display: flex;
     justify-content: center;
-    margin-top: 66px;
+    margin-bottom: 66px;
 }
 
 .error_return {
@@ -30,6 +30,38 @@ body {
     color: #FF6060;
     display: flex;
     justify-content: center;
-    margin-top: 182px;
-    margin-bottom: 189px;
+    margin-bottom: 40px;
 }
+
+.error_container {
+    display: flex;
+    flex-direction:  column;
+    text-align: center;
+    align-items: center;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1240px;
+}
+ 
+.error, #root,body,html {
+    min-height: 100%;
+}
+
+@media (max-width: 376px) {
+    .error_404 {
+        font-size: 96px;
+    }
+
+    .error_oups {
+        font-size: 18px;
+        max-width: 55%;
+    }
+
+    .error_return {
+        font-size: 14px;
+    }
+} 

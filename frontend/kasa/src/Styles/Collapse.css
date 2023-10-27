@@ -11,6 +11,7 @@
     border-radius: 5px;
     padding-left: 2.5%;
     padding-right: 2.5%;
+    margin-bottom: 0px; 
 }
 
 .collapse {
@@ -25,6 +26,7 @@
     font-weight: 400;
     padding-left: 18px;
     padding-bottom: 19px;
+    padding-top: 15px;
     border-radius: 0 0 5px 5px;
 
 }
@@ -43,7 +45,7 @@
 }
 
 .collapse_div {
-    background-color: #F6F6F6;
+    background-color: white; /*C'tait gris clair, j'ai passé en blanc, maintenant j'ai un espace blanc */
     width: 80%;
     border-radius: 0 0 5px 5px;
 }
@@ -51,6 +53,8 @@
 @media (max-width: 376px) {
     .collapse_div {
         width: 100%;
-        padding: 5px;
+        padding: 0px;
     }
+
+    
 } 
