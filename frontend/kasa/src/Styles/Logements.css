@@ -62,6 +62,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap:15px;
 }
 
 
@@ -98,22 +99,26 @@
     
     .logement_main_collapse {
         flex-direction: column;
+        gap: 0px;
     }
 
     .logement_main_collapse_details .collapse_title {
         padding-left: 5px;
         padding-right: 5px; 
-        width: 360px;
+        width: 350px;
     }
     
     .logement_main_collapse_details .collapse_txt--visible  {   
-        width: 360px;
+        width: 350px;
         padding: 5px; 
     }
 
     .logement_host_rating {
         min-width: 0px;
         display: block;
+    }
+    .logement_main {
+        padding: 5px;
     }
 
     .logement_host_rating img{
@@ -128,5 +133,19 @@
 
     .logement_main_host{
         font-size: 12px;
+    }
+
+    .logements {
+        width: 100%;
+    }
+
+    .logement_main_tags{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .logement_main_tags span {
+        margin-top: 5px;
     }
 }

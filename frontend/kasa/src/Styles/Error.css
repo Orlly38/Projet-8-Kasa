@@ -47,7 +47,7 @@ body {
     width: 1240px;
 }
  
-.error, #root,body,html {
+.error, #root {
     min-height: 100%;
 }
 

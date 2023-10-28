@@ -25,5 +25,9 @@
  
     .img2_container {
         background-size: cover;
+        background-image: url("../Images/paysage2_small.png");
+        background-position: bottom;
+        filter: none;
     }
+    
 }
