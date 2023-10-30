@@ -29,6 +29,14 @@
     right: -575px;
 }
 
+.carrousel_slideNumbering {
+    position: absolute;
+    font-size: 18px;
+    margin-top: 350px;
+    color: white;
+
+}
+
 @media (max-width: 376px) {
     .carrousel {
         margin-top: 15px;
@@ -53,5 +61,9 @@
     .carrousel_icon_next, .carrousel_icon_prev {
         width: 24px;
         height: 24px;
+    }
+
+    .carrousel_slideNumbering {
+        display: none;
     }
 }
