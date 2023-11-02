@@ -1,7 +1,6 @@
 import {calculatePageNumber} from '../Carrousel'
 
 
-
 describe('The formatJobList function', () => {
     it('Test function prevSlide', () => {
         const result = calculatePageNumber(3,-1,5);
