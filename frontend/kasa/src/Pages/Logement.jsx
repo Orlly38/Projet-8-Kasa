@@ -13,12 +13,14 @@ export default function Logement() {
 
   const [filteredDatas, setFilteredDatas] = useState([]);
 
-  const { id } = useParams(); //useParams permet d'obtenir l'ID de la page à partir de l'URL
+  const { id } = useParams(); 
+  //useParams permet d'obtenir l'ID de la page à partir de l'URL
 
   useEffect(() => {
       const filteredData = datas.filter((data) => data.id === id);
       setFilteredDatas(filteredData)
-  }, [id]); // useEffect permet, ici, de filtrer les données du fichier JSON pour ne conserver que l'ID de la page
+  }, [id]); 
+    // useEffect permet, ici, de filtrer les données du fichier JSON pour ne conserver que l'ID de la page
 
   const correctId = datas.find((data) => data.id === id);
 
@@ -33,7 +35,8 @@ export default function Logement() {
           {filteredDatas.map(data => {
 
               const fullName = data.host.name;
-              const [firstName, lastName] = fullName.split(' '); // split permet,ici, de séparer le prénom et le nom de l'hôte
+              const [firstName, lastName] = fullName.split(' '); 
+            // Split permet,ici, de séparer le prénom et le nom de l'hôte
 
               const rating = data.rating;
               const stars = [];

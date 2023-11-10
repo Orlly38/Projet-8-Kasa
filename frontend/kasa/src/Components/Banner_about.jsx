@@ -5,7 +5,6 @@ export default function Banner_about() {
     return (
        <div className="Banner_about">
             <div className="img2_container">
-            
             </div>
         </div>
     )
