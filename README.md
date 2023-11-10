@@ -7,7 +7,7 @@ Bienvenue sur Kasa, une application web de location immobilière développée av
 Vous avez besoin d'avoir Node.js et NPM
 
 ## Launch Project
-Dans le dossier du back-end et du front-end : Installez les dépendances du projet à l'aide de npm en exécutant la commande "npm install" sur votre terminal, puis lancez le projet en faisant "npm start"
+Dans le dossier du back-end et du front-end/kasa : Installez les dépendances du projet à l'aide de npm en exécutant la commande "npm install" sur votre terminal, puis lancez le projet en faisant "npm start"
 
 ## Auteur 
 DORCHE Aurélie
